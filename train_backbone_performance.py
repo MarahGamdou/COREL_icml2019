@@ -32,7 +32,7 @@ if __name__ == "__main__":
             }
         }, 
         'data_args':{
-            'dataset'     : ['tiny-imagenet-200', 'cifar10', 'cifar100'], 
+            'dataset'     : [ 'cifar10' ] ,#['tiny-imagenet-200', 'cifar10', 'cifar100'], 
             'subset_ratio': [1.0], 
             'train'       : [True]        
         }    
