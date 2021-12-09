@@ -19,11 +19,11 @@ PAPER_COLORS = {
 #
 
 class paths:
-	ablation_bkb_dir = '<PATH>/COREL_icml2019/models/ablation'
-	ablation_res_dir = '<PATH>/COREL_icml2019/results_ablation'
+	ablation_bkb_dir = '/COREL_icml2019/models/ablation'
+	ablation_res_dir = '/COREL_icml2019/results_ablation'
 
-	performance_bkb_dir = '<PATH>/COREL_icml2019/models/performance'
-	performance_res_dir = '<PATH>/COREL_icml2019/results_performance'
+	performance_bkb_dir = '/COREL_icml2019/models/performance'
+	performance_res_dir = '/COREL_icml2019/results_performance'
 
-	dataset_root_generic = '<DATAPATH>'
+	dataset_root_generic = 'Datasets'
 	dataset_root_special = {}
