@@ -16,7 +16,7 @@ if __name__ == "__main__":
         'train_args': {
             'learning_rate': [0.001], 
             'batch_size'   : [100], 
-            'n_epochs'     : [50], 
+            'n_epochs'     : [1],#[50], 
             'rec_loss_w'   : [1.0],
             'top_loss_w'   : [20.0]
         }, 
