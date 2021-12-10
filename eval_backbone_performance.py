@@ -15,7 +15,7 @@ def main():
     os.makedirs(OUT_FOLDER)
 
     eval_config_grid = {
-        'dataset':  ['cifar10', 'cifar20', 'cifar100', 'tiny-imagenet-200', 'ImageNet'], 
+        'dataset':  ['cifar10'],#, 'cifar20', 'cifar100', 'tiny-imagenet-200', 'ImageNet'], 
         'n_train_samples': [80, 120, 500],
         'scorer':
         {
