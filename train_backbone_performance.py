@@ -16,9 +16,9 @@ if __name__ == "__main__":
         'train_args': {
             'learning_rate': [0.001], 
             'batch_size'   : [100], 
-            'n_epochs'     : [1],#[50], 
-            'rec_loss_w'   : [1.0],
-            'top_loss_w'   : [20.0]
+            'n_epochs'     : [100], #50
+            'rec_loss_w'   : [0.0],  #1
+            'top_loss_w'   : [1.0]  #20
         }, 
         'model_args': {
             'class_id'     : ['DCGEncDec'],
